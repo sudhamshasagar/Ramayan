@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navigation{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+.logo-section img{
+    margin-left: 5px;
+    width: 130px;
+    border-radius: 5px;
+}
+.nav-menus ul{
+    display: flex;
+    list-style: none;
+    margin-right: 5px;
+    height: 8vh;
+    /* background-color: aliceblue; */
+    align-items: center;
+    justify-content: center;
+}
+.nav-menus ul li{
+    margin: 5px;
+    padding: 5px;
+}
+.nav-menus ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-menus ul li a:hover{
+    color: rgb(8, 0, 255);
+}
+
+/* Main Page Stylings */
+
+.language-selection{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.language-selection input{
+    margin: 0px 10px;
+    
+}
+.intro{
+    display: flex;
+    align-items: center;
+}
+.intro-image{
+    margin-top: 15px;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-image img{
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 2px rgb(7, 0, 0);
+}
+
+
+/* Plants Page Stylings */
+.plants-list h1{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+
+table {
+    border-collapse: collapse;
+    /* width: 99%; */
+    margin: 20px auto 0px;
+    font-size: 17px;
+    
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+td{
+    padding: 15px;
+    background-color: #fbfffc;
+}
+.justify-text{
+    width: 60vw;
+    line-height: 1.7rem;
+    text-align: justify;
+}
